@@ -1,0 +1,296 @@
+/* font */
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+*{
+    font-family: font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Lobster-Regular;
+}
+
+/* body */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding:0 7%;
+}
+/*  topbar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: antiquewhite;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#socialicon{
+    float: right;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-square-facebook{
+padding: 7px 10px;
+}
+
+.fa-square-whatsapp{
+    padding: 7px 10px;
+
+}
+
+.fa-square-instagram{
+    padding: 7px 10px;
+}
+
+.fa-square-twitter{
+    padding: 7px 10px;
+
+}
+
+/* Logobar */
+#logobar img{
+width: 200px;
+height: 100px;
+margin: 15px 0px;
+}
+
+/* nav bar */
+#navbar{
+    background-color: #EE5253;
+
+    
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0px;
+
+}
+#navbar ul li a{
+   color: antiquewhite;
+   text-decoration: none;
+   font-size: 18px;
+}
+/* poster */
+#poster{
+    background-image: url(../images/banner.PNG);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+   color: antiquewhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* WHY US */
+
+#whysection {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading {
+    color: #EE5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    
+}
+
+.section33 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px ;
+    box-sizing: border-box;
+
+}
+
+.section33 h2{
+    color: #EE5253;
+    
+}
+
+.section33 p{
+    color: black;
+    
+}
+
+/* CONTACT */
+
+#contact-container{
+    background-color: #EE5253;
+    color: antiquewhite;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section70 {
+    width: 70%;
+    float: left;
+}
+
+.section30 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+#contact-btn{
+    background-color: antiquewhite;
+    color:blueviolet;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/* BLOG */
+.section33 img{
+    max-width: 100%;
+}
+
+.section33 a{
+    color: #EE5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Lobster-Regular;
+    font-size: 14px;
+}
+
+/* SUBSCRIBE */
+#subscribe-section{
+    background-color: #EE5253;
+    color: antiquewhite;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+.section50{
+    width: 50%;
+    float: left;
+}
+
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section50 form{
+    padding-top: 25px;
+}
+
+.section50 input[type="text"]{
+    padding:10px 15px;
+    font-size: 15px;
+    color: #EE5253;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+
+.section50 input[type="Submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #EE5253;
+    border:0px;
+}
+
+/* footer */
+
+#imp-link{
+    background-color: #576574;
+    color: antiquewhite;
+    overflow: auto;
+
+}
+
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+
+#footer-menu {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footer-menu li{
+padding-bottom: 10px;
+}
+
+#footer-menu li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#Footer-menu-container{
+    padding-left: 100px;
+}
+
+#copyright {
+    background-color: #222f3e;
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+/* responsive ipad */
+
+@media only screen and (max-width:768px){
+    #navbar ul li {
+        display: inline-block;
+        padding: 1px 0px;
+        padding-right: 14;
+    }
+    ..section70 {
+        padding-right: 30px;
+        box
+    }
+}
