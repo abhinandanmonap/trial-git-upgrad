@@ -1,10 +1,10 @@
-#Trial page
+# Trial page
 
-##2 heading
+## 2 heading
 
-###third heading
+### third heading
 
-####fourth heading
+#### fourth heading
 
 This is first git hub repository
 
